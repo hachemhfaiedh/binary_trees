@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 size_t binary_tree_depth(const binary_tree_t *tree)
 {
-	int l_depth, r_depth;
+	size_t l_depth, r_depth;
 
 	if (tree == NULL || (!tree->left && !tree->right))
 		return (0);
